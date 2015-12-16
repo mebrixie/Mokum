@@ -326,8 +326,8 @@
             iframe = iframe.contentWindow;
         }
         var url = window.ff__reshare ? "" : 'https://mokum.place';
+				alert (url);
         // url += '/share/bookmarklet/frame#' + p;
-        alert (url);
         try {
             iframe.location.replace(url);
         } catch (e) {
@@ -404,4 +404,3 @@
         bookmarklet();
     }
 })();
- 
