@@ -149,7 +149,7 @@
         clickTarget.style.height = image.height + "px";
         clickTarget.style.border = kOutlineSize + "px solid " + kOutlineColor;
         clickTarget.style.cursor = "pointer";
-        clickTarget.innerHTML = '<div style="margin:0;padding:0;width:100%;height:100%;position:relative;z-index:1;background-color:white;filter:alpha(opacity=1);opacity: 0.01"></div><div style="margin:0;position:absolute;top:0;left:0;background-color:white;padding:3px;color:#1030cc;border: 1px solid #1030cc;border-width: 0px 1px 1px 0px;z-index:2">' + 'Share image on FriendFeed' + '</div>';
+        clickTarget.innerHTML = '<div style="margin:0;padding:0;width:100%;height:100%;position:relative;z-index:1;background-color:white;filter:alpha(opacity=1);opacity: 0.01"></div><div style="margin:0;position:absolute;top:0;left:0;background-color:white;padding:3px;color:#1030cc;border: 1px solid #1030cc;border-width: 0px 1px 1px 0px;z-index:2">' + 'Share image on Mokum' + '</div>';
         addEventListener(clickTarget, "click", curry(onImageClick, image));
         addEventListener(clickTarget, "mouseout", onHoverMouseOut);
         popupContainer.style.display = "";
